@@ -1,13 +1,17 @@
+# qmk compile -kb crkbd/rev4_1/standard -km vial
 VIA_ENABLE          = yes
 VIAL_ENABLE         = yes
 LTO_ENABLE          = yes
+ENCODER_MAP_ENABLE  = yes
 
-RGBLIGHT_ENABLE     = yes
-RGB_MATRIX_ENABLE   = no # Can't have RGBLIGHT and RGB_MATRIX at the same time.
+VIALRGB_ENABLE      = yes
+RGBLIGHT_ENABLE     = no
+RGB_MATRIX_ENABLE   = yes
 MOUSEKEY_ENABLE     = no
 OLED_ENABLE         = no
 OLED_DRIVER         = SSD1306
-EXTRAKEY_ENABLE     = no
-COMBO_ENABLE        = no
-
-QMK_SETTINGS        = no
+COMBO_ENABLE        = yes
+CONSOLE_ENABLE      = no
+COMMAND_ENABLE      = no
+MUSIC_ENABLE        = no
+QMK_SETTINGS        = yes

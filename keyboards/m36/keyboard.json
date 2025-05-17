@@ -41,7 +41,7 @@
                 ]
             }
         }
-         },
+    },
     "layouts": {
         "LAYOUT_split_3x5": {
             "layout": [
@@ -95,7 +95,7 @@
         "driver": "pwm",
         "pin": "A7"
     },
-        "rgb_matrix": {
+    "rgb_matrix": {
         "driver": "ws2812",
         "led_count": 36,
         "split": true,

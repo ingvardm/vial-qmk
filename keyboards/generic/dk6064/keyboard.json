@@ -3,7 +3,7 @@
     "maintainer": "DK",
     "manufacturer": "DK",
     "bootloader": "stm32-dfu",
-    "url": "https://github.com/foostan/crkbd",
+    "url": "https://github.com/ingvardm/vial-qmk/tree/dk6064",
     "diode_direction": "COL2ROW",
     "usb": {
         "pid": "0x0111",

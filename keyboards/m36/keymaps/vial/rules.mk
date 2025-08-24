@@ -1,3 +1,5 @@
+# VIAL_INSECURE         = yes
+
 VIA_ENABLE            = yes
 VIAL_ENABLE           = yes
 LTO_ENABLE            = yes
@@ -11,10 +13,8 @@ COMBO_ENABLE          = yes
 COMMAND_ENABLE        = no
 UNICODE_ENABLE        = no
 MOUSEKEY_ENABLE       = no
-GRAVE_ESC_ENABLE = no
-MAGIC_ENABLE = no
-MUSIC_ENABLE = no
+GRAVE_ESC_ENABLE      = no
+MAGIC_ENABLE          = no
+MUSIC_ENABLE          = no
 
 QMK_SETTINGS          = yes
-
-VIAL_INSECURE = yes
